@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,6 +7,8 @@
 body {
     background-color: #f4f4f4;
 }
+
+a {cursor: pointer;}
 
 .header {
     padding: 20px;
@@ -25,20 +27,25 @@ body {
 }
 
 .header .header-div-container {
-   display: flex;
+   display: inline;
     align-items: center;
 }
 
 .header .header-div-container ul {
-    list-style-type: none;
-    display: flex;
+    list-style: none; 
     margin-left: auto;
+padding: 0;
 
 }
 .header .header-div-container ul li {
+    display: inline;
     margin-left: 25px;
 }
 
+.header .header-div-container ul li a {
+    margin-left: 25px;
+    text-decoration: no;
+}
 a {
     color: #ffffff;
     text-decoration: none;
