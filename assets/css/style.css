@@ -26,18 +26,18 @@ a {cursor: pointer;}
     color: #d9dcd6;
 }
 
-.header .header-div-container {
+.header {
    display: inline;
     align-items: center;
 }
 
-.header .header-div-container ul {
+.header ul {
     list-style: none; 
     margin-left: auto;
 padding: 0;
 
 }
-.header .header-div-container ul li {
+.header ul li {
     display: inline;
     margin-left: 25px;
 }
